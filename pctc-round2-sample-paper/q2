@@ -1,0 +1,12 @@
+def wn(w, n):
+    if len(w) > n:
+        return "MORE"
+    elif len(w) < n:
+        return "FEWER"
+    else:
+        return "MATCH"
+
+# main
+w = input()
+n = int(input()) # whole no
+print(wn(w, n))
