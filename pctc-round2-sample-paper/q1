@@ -1,1 +1,13 @@
-
+def check_order(x, y, z):
+    if x < y < z:
+        return "UP"
+    elif x > y > z:
+        return "DOWN"
+    else:
+        return "WOBBLY"
+# main
+x = float(input()) # float to solve decimal cases
+y = float(input())
+z = float(input())
+result = check_order(x, y, z)
+print(result)
