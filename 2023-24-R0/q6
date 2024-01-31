@@ -1,0 +1,12 @@
+cup = 12
+curr = 0
+overflow = 0
+
+while curr < cup:
+    disp = int(input())
+    curr += disp
+
+    if curr > cup:
+        overflow = curr - cup
+
+print(overflow)
