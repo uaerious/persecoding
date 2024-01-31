@@ -1,0 +1,11 @@
+item = input()
+
+if item == 'h':
+    print(1)
+elif item == 't' or item == 'c':
+    no = int(input())
+    
+    if no >= 10:
+        print(1 + 10)
+    else:
+        print(1 + no)
