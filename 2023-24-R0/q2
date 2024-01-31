@@ -1,0 +1,4 @@
+given = int(input())
+cost = int(input())
+ride = given // cost
+print(ride)
