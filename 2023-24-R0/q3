@@ -1,0 +1,12 @@
+new = []
+dec = ''
+word = input()
+
+for letter in word:
+  new.append(letter)
+
+final = new[2:] + new[0:2]
+for i in final:
+  dec += i
+
+print(dec)
