@@ -1,0 +1,6 @@
+x = int(input())
+y = int(input())
+z = int(input())
+
+t = x + (12* (y * z))
+print(t)
